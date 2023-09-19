@@ -8,4 +8,4 @@ app.get("/home", (req, res) => {
 
 const port = 8080;
 
-app.listen(port, () => console.log(`Rodando com Express na porta ${port}!`));
+app.listen(port, () => console.log(`Rodando com Express na porta ${port}`));
